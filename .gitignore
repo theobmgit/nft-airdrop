@@ -16,3 +16,5 @@
 
 contracts/token/artifacts/
 contracts/airdrop/artifacts/
+
+.idea/
