@@ -67,13 +67,4 @@ func main() {
 	tx, err := instance.SafeMint(auth, fromAddress, big.NewInt(0))
 
 	fmt.Printf("tx sent: %s", tx.Hash().Hex())
-
-	//var key [32]byte
-	//copy(key[:], "foo")
-	//result, err := instance.Items(nil, key)
-	//if err != nil {
-	//	log.Fatal(err)
-	//}
-	//
-	//fmt.Println(string(result[:]))
 }
